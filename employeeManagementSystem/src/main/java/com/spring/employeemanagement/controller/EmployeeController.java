@@ -20,8 +20,8 @@ import com.spring.employeemanagement.exception.ResourceNotFoundException;
 import com.spring.employeemanagement.model.Employee;
 import com.spring.employeemanagement.repository.EmployeeRepository;
 
-//@CrossOrigin(origins = "*")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {
